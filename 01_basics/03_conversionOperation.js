@@ -4,7 +4,7 @@ let score = "Hemraj Kalathoki"
 //console.log(typeof(score));
 
 let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
+// console.log(typeof valueInNumber);
 //console.log(valueInNumber);
 
 
@@ -12,8 +12,9 @@ let valueInNumber = Number(score)
 // "33abc" => NaN
 //  true => 1; false => 0
 
-let isLoggedIn = "Hemraj Kalathoki"
+let isLoggedIn = true
 
+// console.log(isLoggedIn);
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
 
@@ -53,7 +54,7 @@ let str3 = str1 + str2
 
 // console.log( (3 + 4) * 5 % 3);
 
-// console.log(+true);
+console.log(+true);
 // console.log(+"");
 
 let num1, num2, num3

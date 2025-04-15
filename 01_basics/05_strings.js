@@ -8,7 +8,7 @@ console.log(`Hello my name is ${name.toUpperCase()} and my repo count is ${repoC
 const gameName = new String('Hemraj Kalathoki-hc-com')
 
 // console.log(gameName[0]);
-// console.log(gameName.__proto__);
+console.log(gameName.__proto__);
 
 
 // console.log(gameName.length);
@@ -33,3 +33,16 @@ console.log(url.replace('.com', '-'))
 console.log(url.includes('hemraj'))
 
 console.log(gameName.split('-'));
+
+let stringOne = "Hemraj Kalathoki";
+console.log(stringOne.slice(0, stringOne.length-1));
+
+
+let userName;
+console.log(userName);
+console.log(typeof userName);
+
+let lastName = null;
+console.log(lastName);
+console.log(typeof lastName);
+

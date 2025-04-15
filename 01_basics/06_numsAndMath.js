@@ -4,12 +4,12 @@ const score = 400
 const balance = new Number(100)
 // console.log(balance);
 
-// console.log(balance.toString().length);
+console.log(typeof balance.toString().length);
 // console.log(balance.toFixed(1));
 
 const otherNumber = 123.8966
 
-// console.log(otherNumber.toPrecision(4));
+// console.log(otherNumber.toPrecision(4)); // its to round the number to 4 decimal places
 
 const hundreds = 1000000
 // console.log(hundreds.toLocaleString('en-IN'));
@@ -35,3 +35,7 @@ let num = Math.random() * (max - min + 1);
 console.log(num);
 
 console.log(Math.floor(num) + min)
+
+console.log(Math.floor(Math.random() * (99999 - 10000 + 1)) + 10000);
+
+

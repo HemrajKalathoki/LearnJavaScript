@@ -63,7 +63,7 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course  // This is called destructuring, it will extract the value of courseInstructor property and assign it to instructor variable
 
 // console.log(courseInstructor);
 console.log(instructor);
@@ -79,3 +79,22 @@ console.log(instructor);
     {},
     {}
 ]
+
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "Google");
+
+
+// APIs in javascript
+
+// json
+
+// {
+//     "name": "Hemraj",
+//     "age": 21,
+//     "address": "Ghorahi Dang"
+// }
+
