@@ -33,6 +33,7 @@
 //     ["city", "New York"]
 // ]);
 
+
 const map = new Map();
 map.set("name", "Kalathoki");
 map.set("name", "Kalathoki");
@@ -55,4 +56,55 @@ map.set("age", 21);
 // }
 
 
+
+// for in loop for iterating over objects
+
+const programmingLanguages = {
+    js: "JavaScript",
+    py: "Python",
+    rb: "Ruby",
+    java: "Java",
+    cpp: "C++",
+    swift: "Swift"
+};
+
+for (const key in programmingLanguages) {
+    // if (Object.prototype.hasOwnProperty.call(object, key)) {
+    //     const element = object[key];
+        
+    // }
+    // console.log(key);
+    // console.log(programmingLanguages[key]); // js, py, rb, java, cpp, swift
+
+    // console.log(`${key} : ${programmingLanguages[key]}`); // js : JavaScript, py : Python, rb : Ruby, java : Java, cpp : C++, swift : Swift
+    
+}
+
+const programming = ["JavaScript", "Python", "Ruby", "Java", "C++", "Swift"];
+
+for (const key in programming) {
+    // console.log(key); // 0, 1, 2, 3, 4, 5
+    // console.log(programming[key]); // JavaScript, Python, Ruby, Java, C++, Swift
+}
+
+// const countryMap = new Map();
+// countryMap.set("Nepal", "Kathmandu");
+// countryMap.set("India", "New Delhi");   
+// countryMap.set("USA", "Washington, D.C.");
+// countryMap.set("China", "Beijing");
+
+// for (const key in countryMap) {  // we can't use forin loop for map
+//     // console.log(key); 
+//     // console.log(countryMap[key]); // undefined
+//     // console.log(countryMap.get(key)); // Kathmandu, New Delhi, Washington, D.C., Beijing
+// }
+
+
+// objects -> for in loop
+// Arrays -> for of loop
+// Maps -> for of loop
+// Sets -> for of loop
+// Strings -> for of loop
+
+// for in loop -> objects, arrays, maps, sets, strings
 
