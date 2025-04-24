@@ -1,4 +1,4 @@
-// Map
+// Filter
 
 // const coding = ['JavaScript', 'Python', 'C++', 'Java'];
 
@@ -10,7 +10,7 @@
 
 // console.log(values);
 
-const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // const newNumbers = myNumbers.filter( (num) => num > 4);
 // console.log(newNumbers); // [5, 6, 7, 8, 9, 10]
@@ -44,6 +44,21 @@ let userBooks = books.filter( (book) => {
 
 userBooks = books.filter( (book) => book.publish >= 2000 && book.edition > 2005);
 
-console.log(userBooks); // [ { title: 'Book Five', genre: 'Non-Fiction', publish: 2010, edition: 2011 } ]
+// console.log(userBooks); // [ { title: 'Book Five', genre: 'Non-Fiction', publish: 2010, edition: 2011 } ]
 
+
+// Map in details
+
+const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const addedNumbers = myNumbers.map( (num) => num + 10);
+// console.log(addedNumbers); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+// chaining filter and map 
+
+const newNums = myNumbers
+                .map( (num) => num * 5)
+                .map( (num) => num + 2)
+                .filter( (num) => num >= 20);
+console.log(newNums); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
